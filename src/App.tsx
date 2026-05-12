@@ -1,9 +1,12 @@
+import { TicketFormPage } from './components/ticket-from-page/ticket-from-page'
+import { MainLayout } from './components/layouts/main-layout'
+
 function App() {
 
   return (
-    <>
-      <h1> Welcome</h1>
-    </>
+    <MainLayout>
+      <TicketFormPage />
+    </MainLayout>
   )
 }
 
