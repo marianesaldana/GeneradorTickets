@@ -4,7 +4,7 @@ interface Props{
 
 export const MainLayout = ({children}:Props) => {
   return (
-    <main className='py-8 px-4 bg-[url(/assets/images/background-mobile.png)] bg-cover bg-bottom md:bg-[url(/assets/images/background-tablet.png)] lg:bg-[url(/assets/images/background-desktop.png)] relative overflow-hidden'>
+    <main className='py-8 px-4 bg-[url(assets/images/background-mobile.png)] bg-cover bg-bottom md:bg-[url(assets/images/background-tablet.png)] lg:bg-[url(assets/images/background-desktop.png)] relative overflow-hidden min-h-screen'>
 
       <img 
         src="/assets/images/pattern-squiggly-line-top.svg" 
@@ -26,7 +26,7 @@ export const MainLayout = ({children}:Props) => {
 
       <header className='flex justify-center mb-10'>
         <img 
-          src="/assets/images/logo-full.svg" 
+          src="/public/assets/images/logo-full.svg" 
           alt="logo"
           className=''
         />
