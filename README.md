@@ -1,3 +1,38 @@
+# Conference Ticket Generator
+
+Aplicación web desarrollada con **React + TypeScript + Vite** para generar tickets personalizados de forma dinámica.
+
+El proyecto permite capturar información del usuario, subir un avatar y visualizar un ticket con el diseño final en tiempo real.
+
+> **Nota:** Proyecto subido únicamente con fines educativos, hecho desde un video de YouTube. 
+
+## Características
+
+- Generación dinámica de tickets
+- Vista previa en tiempo real
+- Subida de avatar personalizada
+- Validación de formularios
+- Diseño responsive
+- Interfaz moderna y atractiva
+- Manejo de imágenes
+- Experiencia interactiva para el usuario
+
+## Tecnologías utilizadas
+
+- React
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- JavaScript
+- File API
+- Flexbox / Grid
+
+## Requisitos
+
+- Node.js instalado
+- npm o yarn
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -73,3 +108,12 @@ export default defineConfig([
   },
 ])
 ```
+
+
+
+## Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/marianesaldana/conference-ticket-generator.git
