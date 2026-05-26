@@ -5,7 +5,7 @@ interface Props {
   placeholder: string;
   isError?: boolean;
   errorMessage?: string;
-  type?: 'text' | 'email'
+  type?: 'text' | 'email' | 'password'
 }
 
 export const TextInput = ({
