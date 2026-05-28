@@ -1,6 +1,6 @@
 import express from 'express';
-import Ticket from '../models/Ticket.js';
-import Usuario from '../models/Usuario.js';
+import Ticket from '../models/ticket.js';
+import Usuario from '../models/usuario.js';
 
 const router = express.Router();
 
